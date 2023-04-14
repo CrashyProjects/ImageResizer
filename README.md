@@ -21,7 +21,7 @@ Alternatively, run it with a specified directory:
 ## Configuration
 To use the image resizer tool, you can configure it by setting the following parameters in the config.py file:
 
-`directory`: Default directory path, will be used only if not passed as argument. Default value is ".", the current directory.
+`directory`: The default directory where the images to be resized are located. If not passed as argument, the default value is set to the current directory ".".
 
 `destination`: Desired destination path, if set to "" will be the same as "directory". Default value is "", the same directory.
 
