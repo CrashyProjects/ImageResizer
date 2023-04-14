@@ -47,7 +47,7 @@ for file in files:
         file = "RESIZED_" + file
     name = os.path.join(destination, file)
     if image.size == resizeRes:
-        print("!File is alredy ", resizeRes, " : ", name)
+        print("!File is already ", resizeRes, " : ", name)
     else:
         resized_image = image.resize(resizeRes)
         resized_image.save(name)
